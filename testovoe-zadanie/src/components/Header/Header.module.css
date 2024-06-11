@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 2vw;
+
+    background: var(--sup2-color);
+}
+
+.testsUl {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.header a {
+    color: black;
+}
+
+.button {
+    cursor: pointer;
+
+    color: black;
+
+    background: transparent;
+    border: none;
+}

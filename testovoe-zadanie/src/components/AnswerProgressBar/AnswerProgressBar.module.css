@@ -1,0 +1,36 @@
+.answerBar {
+    display: flex;
+    gap: 10px;
+}
+
+.link {
+    width: 100px;
+    height: 20px;
+
+    background: var(--sup1-color);
+}
+
+.filled {
+    background: var(--sup2-color);
+}
+
+.button {
+    width: 250px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px;
+
+    border: none;
+    border-radius: 6px;
+
+    user-select: none;
+    cursor: pointer;
+
+    background: var(--sup2-color);
+
+    color: black;
+}

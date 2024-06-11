@@ -1,0 +1,20 @@
+.answersUl {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.answer {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+.check {
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid var(--sup2-color);
+    border-radius: 10px;
+}
+.select {
+    background: var(--sup2-color);
+}

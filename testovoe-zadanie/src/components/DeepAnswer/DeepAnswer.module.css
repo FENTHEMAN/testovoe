@@ -1,0 +1,18 @@
+.textarea {
+    width: 600px;
+    height: 250px;
+
+    padding: 8px;
+
+    background: var(--sup1-color);
+
+    border-radius: 6px;
+    border: none;
+    outline: none;
+
+    color: white;
+    resize: none;
+
+    font-family: "__Inter_aaf875";
+    font-style: 'normal';
+}
